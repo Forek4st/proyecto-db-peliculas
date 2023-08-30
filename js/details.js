@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", () => { //se carga el DOM de la pa
       movieYouTubeIframe.setAttribute("height", "350"); // propiedades del iframe
       movieYouTubeIframe.setAttribute("frameborder", "0"); // propiedades del iframe
       movieYouTubeIframe.setAttribute("allowfullscreen", ""); // propiedades del iframe
+      movieYouTubeIframe.classList.add("movieIframe")
 
       container.appendChild(videoContainer); //con el appendChild se agregan nuevos elementos a nuestro HTML
       videoContainer.appendChild(movieTrailer); //con el appendChild se agregan nuevos elementos a nuestro HTML
